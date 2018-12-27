@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500,700");
-
+/*
+ *
+ *   INSPINIA - Responsive Admin Theme
+ *   version 2.7.1
+ *
+*/
 h1,
 h2,
 h3,
@@ -191,9 +196,7 @@ ul.nav-second-level {
   background: #293846;
 }
 .nav > li.active {
-    border-left: 4px solid #ef9b3f;
   background: #293846;
-  border-bottom: 4px solid #7390ac !important;
 }
 .nav > li b{
     color: #ffffff;
@@ -254,7 +257,7 @@ ul.nav-second-level {
   float: right;
 }
 .fa.arrow:before {
-  content: "\f104";
+  content: "\f105";
 }
 .active > a > .fa.arrow:before {
   content: "\f107";
@@ -6104,7 +6107,7 @@ body.body-small .vote-icon {
   content: "\e114";
 }
 .metismenu .fa.arrow:before {
-  content: "\f104";
+  content: "\f105";
 }
 .metismenu .active > a > .fa.arrow:before {
   content: "\f107";
@@ -11641,4 +11644,46 @@ input.inputfile {
     height: 27px;
     padding: 0px 10px;
     border-radius: 3px;
+}
+
+/* Estilos portal de pagos */
+
+.tablalistado.pagos > tbody > tr > td, .tablalistado.pagos > thead > tr > th, .tablalistado.pagos > tfoot > tr > td {
+	padding: 12px !important;
+}
+
+.tablalistado.pagos > tfoot {
+	background-color: #F3F3F3;
+}
+
+.img_pagos img {
+	width: 100%;
+	max-width: 250px;
+}
+
+@media screen and (max-width: 992px) {
+	.img_pagos {
+		text-align: center;
+	}
+}
+
+.font-16 {
+	font-size: 16px !important;
+}
+
+.font-18 {
+	font-size: 18px !important;
+}
+
+textarea.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	opacity: 0.6 !important;
+}
+textarea.form-control::-moz-placeholder { /* Firefox 19+ */
+  opacity: 0.6 !important;
+}
+textarea.form-control:-ms-input-placeholder { /* IE 10+ */
+  opacity: 0.6 !important;
+}
+textarea.form-control:-moz-placeholder { /* Firefox 18- */
+  opacity: 0.6 !important;
 }
